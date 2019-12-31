@@ -25,9 +25,11 @@ class Student {
 		return rno;
 	}
 
+
 	public void setRno(int rno) {
 		this.rno = rno;
 	}
+
 
 	public String getName() {
 		return name;
@@ -37,11 +39,15 @@ class Student {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
+
 	@Override
 	public String toString() {
 		return "Roll NO: " + rno + ", Name: " + name + ", Age: "+age;
-	}	
+	}
+	
+	
+	
 }
 
 class Training {
