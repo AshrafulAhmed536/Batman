@@ -1,4 +1,3 @@
-package personstudent;
 
 class Person implements java.io.Serializable {
 	private int ssn;
