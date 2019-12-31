@@ -1,5 +1,3 @@
-package test;
-
 class Employee {
 	private int empid;
 	private String ename;
@@ -111,7 +109,7 @@ class Department {
 	
 }
 
-public class Test1 {
+public class EqualsExample {
 	public static void main(String args[]) {
 		Employee e1 = new Employee(101,"Ajay",25000);
 		Employee e2 = new Employee(101,"Ajay",25000);
