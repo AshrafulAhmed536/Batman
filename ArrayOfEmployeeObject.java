@@ -78,7 +78,7 @@ class Department1 {
 	
 	
 }
-public class Test2 {
+public class ArrayOfEmployeeObject {
 	public static void main(String args[]) {
 		Employee1[] e = new Employee1[2];
 		e[0] = new Employee1(101,"Ajay",25000);
