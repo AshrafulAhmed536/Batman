@@ -1,7 +1,7 @@
 package MyTest;
 import java.util.Scanner;
 
-public class Test12 {
+public class TestingScanner {
 	public static void main(String[] args) {
 		try (Scanner s = new Scanner(System.in)) {
 			int i;
