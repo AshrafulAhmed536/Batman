@@ -1,5 +1,3 @@
-package iotest;
-
 class Employee implements java.io.Serializable {
 	private int empid;
 	private String ename;
@@ -27,7 +25,5 @@ class Employee implements java.io.Serializable {
 	}
 	public void setSalary(double salary) {
 		this.salary = salary;
-	}
-	
-	
+	}	
 }
